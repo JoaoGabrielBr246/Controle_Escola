@@ -11,6 +11,4 @@ public interface ClassDao {
     void deleteById(Integer id) throws SQLException;
     Student findById(Integer id) throws SQLException;
     List<Student> findAll() throws SQLException;
-//    // Método para encontrar todos os vendedores associados a um determinado departamento
-//    List<Student> findByDepartment(Department department) throws SQLException;
 }
